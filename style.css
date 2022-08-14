@@ -58,11 +58,12 @@ h1{
 .comidas,
 .bebidas,
 .sobremesas{
-    height: 216px;
+    height: 226px;
     overflow-x: scroll;
     -ms-overflow-style: none;  /* Escondendo scroll no IE, Edge */
     scrollbar-width: none;     /* e no Firefox */
     margin-bottom: 34px;
+    /* background-color: aqua; */
 }
 
 .comidas::-webkit-scrollbar, 
@@ -75,14 +76,12 @@ h1{
     display: none;
 }
 
-
-
-
 .opcoes{
     display: flex;
     width: 955px;
     /* background-color: chocolate; */
     justify-content: space-evenly;
+    /* padding: 20px 0; */
 }
 
 .opcao{
@@ -94,6 +93,7 @@ h1{
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    position: relative;
 }
 
 .conteudo-da-opcao{
@@ -164,4 +164,28 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     /* background-color: aqua; */
+}
+
+
+                /* Classes escondidas */
+
+.selecionado{
+    border: 5px solid #32B72F;
+    box-sizing: border-box;
+}
+
+.selecionado ion-icon{
+    display: initial;
+}
+
+ion-icon{
+    color: #32B72F;
+    position: absolute;
+    right:6%;
+    bottom:4%;
+    display: none;
+}
+
+.botao-liberado{
+    background-color: #32B72F;
 }
