@@ -10,188 +10,215 @@
 </head>
 <body>
 
-    <div class="header">
-        <h1>Driven Eats</h1>
-        <h2>Sua comida em 6 minutos</h2>
-    </div>
-
-    <div class="corpo">
-        <h1>Primeiro, seu prato</h1>
-        <div class="comidas">
-            <div class="opcoes">
-                <div class="opcao frango" onclick="selecionarComida('frango')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/comidas/frango.jpg">
-                        <h2>Frango Yin Yang</h2>
-                        <p>Um pouco de molho, um pouco de frango e muito amor</p>
-                        <h3>R$ 14,90</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
-                <div class="opcao hamburguer" onclick="selecionarComida('hamburguer')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/comidas/burguer.jpg">
-                        <h2>Hamburguer</h2>
-                        <p>Não é de siri, mas leva muito molho especial</p>
-                        <h3>R$ 22,50</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-                
-                <div class="opcao japa" onclick="selecionarComida('japa')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/comidas/japa.jpg">
-                        <h2>Comida Japonesa</h2>
-                        <p>Pescado no dia, fritado na hora e alegria instantânea</p>
-                        <h3>R$ 31,90</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
-                <div class="opcao lasanha" onclick="selecionarComida('lasanha')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/comidas/lasanha.jpg">
-                        <h2>Lasanha de Microondas</h2>
-                        <p>Se a cara é ruim, imagina o gosto... Brincadeira, é ótimo!</p>
-                        <h3>R$ 10,20</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
-                <div class="opcao miojo" onclick="selecionarComida('miojo')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/comidas/miojo.jpg">
-                        <h2>Macarrão Instantâneo</h2>
-                        <p>Quando velocidade é seu objetivo, cá está um tapa buraco</p>
-                        <h3>R$ 5,80</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
+    <!-- <div class="tela-confirmacao"> -->
+        <!-- <div class="pop-up">
+            <h2>Confirme seu pedido</h2>
+            <div class="comidaFinal">
+                <h3>Comida</h3>
+                <h4>Preço</h4>
             </div>
+            <div class="bebidaFinal">
+                <h3>Bebida</h3>
+                <h4>Preço</h4>
+            </div>
+            <div class="sobremesaFinal">
+                <h3>Sobremesa</h3>
+                <h4>Preço</h4>
+            </div>
+            <div class="total">
+                <h3>TOTAL</h3>
+                <h4>PreçoFinal</h4>
+            </div>
+            <div class="botaoConfirmar">
+                Tudo certo, pode pedir!
+            </div>
+            <div class="botaoCancelar">
+                Cancelar
+            </div>
+        </div> -->
+
+        <div class="header">
+            <h1>Driven Eats</h1>
+            <h2>Sua comida em 6 minutos</h2>
         </div>
 
-        <h1>Agora, sua bebida</h1>
-        <div class="bebidas">
-            <div class="opcoes">
-                <div class="opcao coca" onclick="selecionarBebida('coca')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/bebidas/coca.jpg">
-                        <h2>Coca-Cola</h2>
-                        <p>O refrigerante mais famoso do mercado</p>
-                        <h3>R$ 5,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+        <div class="corpo">
+            <h1>Primeiro, seu prato</h1>
+            <div class="comidas">
+                <div class="opcoes">
+                    <div class="opcao frango" onclick="selecionarComida('frango')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/comidas/frango.jpg">
+                            <h2>Frango Yin Yang</h2>
+                            <p>Um pouco de molho, um pouco de frango e muito amor</p>
+                            <h3>R$ 14,90</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div>
-                </div>
 
-                <div class="opcao guarana" onclick="selecionarBebida('guarana')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/bebidas/Guaraná_Antarctica.jpg">
-                        <h2>Guaraná</h2>
-                        <p>O refrigerante que é a cara do povo brasileiro</p>
-                        <h3>R$ 5,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                    <div class="opcao hamburguer" onclick="selecionarComida('hamburguer')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/comidas/burguer.jpg">
+                            <h2>Hamburguer</h2>
+                            <p>Não é de siri, mas leva muito molho especial</p>
+                            <h3>R$ 22,50</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div>
-                </div>
+                    
+                    <div class="opcao japa" onclick="selecionarComida('japa')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/comidas/japa.jpg">
+                            <h2>Comida Japonesa</h2>
+                            <p>Pescado no dia, fritado na hora e alegria instantânea</p>
+                            <h3>R$ 31,90</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
 
-                <div class="opcao shake" onclick="selecionarBebida('shake')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/bebidas/shake.jpeg">
-                        <h2>Milkshake</h2>
-                        <p>O paralelo perfeito entre sobremesa e bebida</p>
-                        <h3>R$ 12,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                    <div class="opcao lasanha" onclick="selecionarComida('lasanha')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/comidas/lasanha.jpg">
+                            <h2>Lasanha de Microondas</h2>
+                            <p>Se a cara é ruim, imagina o gosto... Brincadeira, é ótimo!</p>
+                            <h3>R$ 10,20</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div>
-                </div>
 
-                <div class="opcao suco" onclick="selecionarBebida('suco')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/bebidas/suco.jpg">
-                        <h2>Suco de Laranja</h2>
-                        <p>Uma alternativa mais saudável e mais calórica que o shake.</p>
-                        <h3>R$ 8,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
+                    <div class="opcao miojo" onclick="selecionarComida('miojo')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/comidas/miojo.jpg">
+                            <h2>Macarrão Instantâneo</h2>
+                            <p>Quando velocidade é seu objetivo, cá está um tapa buraco</p>
+                            <h3>R$ 5,80</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
                     </div>
-                </div>
 
-                <div class="opcao agua" onclick="selecionarBebida('agua')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/bebidas/agua.jpg">
-                        <h2>Água com gás</h2>
-                        <p>Ótimo para acompanhar um café quente em uma tarde de verão.</p>
-                        <h3>R$ 3,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-
-        <h1>Por fim, sua sobremesa</h1>
-        <div class="sobremesas">
-            <div class="opcoes">
-                <div class="opcao pudim" onclick="selecionarDoce('pudim')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/sobremesas/pudim.jpg">
-                        <h2>Pudim</h2>
-                        <p>Um belo doce a base de leite</p>
-                        <h3>R$ 7,90</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-                
-                <div class="opcao brownie" onclick="selecionarDoce('brownie')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/sobremesas/brownie.jpg">
-                        <h2>Brownie</h2>
-                        <p>Acompanhado de amendoas e calda de chocolate</p>
-                        <h3>R$ 6,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
-                <div class="opcao casquinha" onclick="selecionarDoce('casquinha')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/sobremesas/casquinha.jpg">
-                        <h2>Casquinha</h2>
-                        <p>Sorvetes nos sabores de creme, chocolate ou misto</p>
-                        <h3>R$ 2,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
-                <div class="opcao mousse" onclick="selecionarDoce('mousse')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/sobremesas/mousse.jpg">
-                        <h2>Mousse</h2>
-                        <p>Sabores de maracujá e chocolate</p>
-                        <h3>R$ 5,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-                </div>
-
-                <div class="opcao torta" onclick="selecionarDoce('torta')">
-                    <div class="conteudo-da-opcao">
-                        <img src="./img/sobremesas/receita-simples-e-caseira-de-torta-de-maca-1300x932.png">
-                        <h2>Torta Americana</h2>
-                        <p>Famosa torta cinematográfica</p>
-                        <h3>R$ 12,00</h3>
-                        <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
                 </div>
             </div>
-        </div>
-    </div>   
 
-    <div class="rodape">
-        <div class="botao" onclick="msgConfirmacao()">
-            <div class="legenda">
-                <p>Selecione os 3 itens para fechar o pedido</p>
+            <h1>Agora, sua bebida</h1>
+            <div class="bebidas">
+                <div class="opcoes">
+                    <div class="opcao coca" onclick="selecionarBebida('coca')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/bebidas/coca.jpg">
+                            <h2>Coca-Cola</h2>
+                            <p>O refrigerante mais famoso do mercado</p>
+                            <h3>R$ 5,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao guarana" onclick="selecionarBebida('guarana')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/bebidas/Guaraná_Antarctica.jpg">
+                            <h2>Guaraná</h2>
+                            <p>O refrigerante que é a cara do povo brasileiro</p>
+                            <h3>R$ 5,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao shake" onclick="selecionarBebida('shake')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/bebidas/shake.jpeg">
+                            <h2>Milkshake</h2>
+                            <p>O paralelo perfeito entre sobremesa e bebida</p>
+                            <h3>R$ 12,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao suco" onclick="selecionarBebida('suco')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/bebidas/suco.jpg">
+                            <h2>Suco de Laranja</h2>
+                            <p>Uma alternativa mais saudável e mais calórica que o shake.</p>
+                            <h3>R$ 8,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao agua" onclick="selecionarBebida('agua')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/bebidas/agua.jpg">
+                            <h2>Água com gás</h2>
+                            <p>Ótimo para acompanhar um café quente em uma tarde de verão.</p>
+                            <h3>R$ 3,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <h1>Por fim, sua sobremesa</h1>
+            <div class="sobremesas">
+                <div class="opcoes">
+                    <div class="opcao pudim" onclick="selecionarDoce('pudim')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/sobremesas/pudim.jpg">
+                            <h2>Pudim</h2>
+                            <p>Um belo doce a base de leite</p>
+                            <h3>R$ 7,90</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    
+                    <div class="opcao brownie" onclick="selecionarDoce('brownie')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/sobremesas/brownie.jpg">
+                            <h2>Brownie</h2>
+                            <p>Acompanhado de amendoas e calda de chocolate</p>
+                            <h3>R$ 6,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao casquinha" onclick="selecionarDoce('casquinha')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/sobremesas/casquinha.jpg">
+                            <h2>Casquinha</h2>
+                            <p>Sorvetes nos sabores de creme, chocolate ou misto</p>
+                            <h3>R$ 2,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao mousse" onclick="selecionarDoce('mousse')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/sobremesas/mousse.jpg">
+                            <h2>Mousse</h2>
+                            <p>Sabores de maracujá e chocolate</p>
+                            <h3>R$ 5,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="opcao torta" onclick="selecionarDoce('torta')">
+                        <div class="conteudo-da-opcao">
+                            <img src="./img/sobremesas/receita-simples-e-caseira-de-torta-de-maca-1300x932.png">
+                            <h2>Torta Americana</h2>
+                            <p>Famosa torta cinematográfica</p>
+                            <h3>R$ 12,00</h3>
+                            <ion-icon name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div class="rodape">
+            <div class="botao" onclick="msgConfirmacao()">
+                <div class="legenda">
+                    <p>Selecione os 3 itens para fechar o pedido</p>
+                </div>
             </div>
         </div>
-    </div>
-
+    <!-- </div> -->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
